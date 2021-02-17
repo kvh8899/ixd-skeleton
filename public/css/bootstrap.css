@@ -183,7 +183,6 @@ samp {
   margin-left: -950px;
 }
 
-
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {color: blue;}
 .data:hover .dropmenu {color: blue;}
@@ -256,8 +255,9 @@ input {
 button,
 select {
   text-transform: none;
-}
 
+}
+s
 button,
 html input[type="button"],
 input[type="reset"],
@@ -1962,10 +1962,41 @@ legend {
 
 label {
   display: inline-block;
+
   margin-bottom: 5px;
   font-weight: bold;
-}
 
+
+}
+.recordsel{
+  width: 179px;
+  height: 27px;
+}
+.formlabels{
+  margin-top: 20px;
+  text-align: left;
+
+}
+.formlabels2{
+margin-top: 20px;
+margin-left: -20px;
+}
+.submitform{
+  border: solid;
+}
+.cancel{
+  background-color: grey;
+  color: white;
+  border: none;
+  outline: none;
+  margin-right: 30px;
+}
+.save{
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+}
 input[type="search"] {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
