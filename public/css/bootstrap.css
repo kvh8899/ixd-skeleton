@@ -178,7 +178,10 @@ samp {
   display: block;
 }
 
-
+.title{
+  line-height: 100px;
+  margin-left: -950px;
+}
 
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
