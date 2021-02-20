@@ -1,3 +1,8 @@
+var data = require('../data.json');
+
+//console.log(data["name"]);
+
 exports.view = function(req, res){
-  res.render('index');
+  res.render('index', data);
+  console.log(data["name"]);
 };
